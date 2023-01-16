@@ -9,7 +9,6 @@ class Student < Person
   def play_hooky
     puts '¯\(ツ)/¯'
   end
-  
 end
 student = Student.new
 puts student.play_hooky
